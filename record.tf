@@ -3,4 +3,5 @@ resource "cloudflare_record" "test_A" {
     name = "test"
     value = "192.168.1.1"
     type = "A"
+    proxied = "false"
 }
